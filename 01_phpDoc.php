@@ -1,16 +1,14 @@
 <?php
 /**
- * Esta funcion retorna la suma de dos numeros
- * 
- * @param int $num1
- * @param int $num2
+ * esta funcion retorna la suma de 2 numeros
+ *
+ * @param int $n1
+ * @param int $n2
  * @return int
  */
-function sumar($num1,$num2){
-    return $num1 + $num2;
+function suma($n1, $n2){
+    return $n1 + $n2;
 }
-
-$resultado = sumar()
-
-// echo sumar(3, 4);
+$resultado = suma(3, 5);
+echo $resultado;
 ?>
